@@ -7,9 +7,9 @@
 
 const int SCREEN_SIZE = 500;
 //Calculate play feild grid.
-const int GRID_COLS = 50;
-const int GRID_ROWS = 50;
-const int CELL_SIZE = SCREEN_SIZE/50;
+const int GRID_COLS = 100;
+const int GRID_ROWS = 100;
+const int CELL_SIZE = SCREEN_SIZE/GRID_COLS;
 
 
 enum class LifeForm : bool {
