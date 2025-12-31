@@ -1,0 +1,30 @@
+# Compiled object files
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.dylib
+
+# Build directories
+build/
+bin/
+CMakeFiles/
+CMakeCache.txt
+game
+
+# IDE / editor files
+*.suo
+*.user
+*.swp
+*.sln
+*.vcxproj*
+*.xcodeproj
+*.idea/
+*.vscode/
+
+# Raylib (if you have a local copy)
+raylib/
+
+#MacOs files
+.DS_Store
